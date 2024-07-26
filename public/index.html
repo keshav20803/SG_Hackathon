@@ -15,26 +15,45 @@
     <link rel="stylesheet" href="./normalize.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./main.css" />
-    <title>Task Manager</title>
+    <title>Mental Health Journal</title>
   </head>
   <body>
-    <form class="task-form">
-      <h4>task manager</h4>
-      <div class="form-control">
-        <input
-          type="text"
-          name="name"
-          class="task-input"
-          placeholder="e.g. wash dishes"
-        />
-        <button type="submit" class="btn submit-btn">submit</button>
-      </div>
-      <div class="form-alert"></div>
-    </form>
-    <section class="tasks-container">
-      <p class="loading-text">Loading...</p>
-      <div class="tasks"></div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#login">Login</a></li>
+        </ul>
+        <button class="btn donate-btn">Get Started</button>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Supporting Our Community Together</h1>
+      <p>
+        We can connect hearts, transform lives and foster a sense of belonging
+        for everyone
+      </p>
     </section>
+    <main>
+      <form class="task-form">
+        <h4>Mental Health Journal</h4>
+        <div class="form-control">
+          <input
+            type="text"
+            name="name"
+            class="task-input"
+            placeholder="write about your day"
+          />
+          <button type="submit" class="btn submit-btn">submit</button>
+        </div>
+        <div class="form-alert"></div>
+      </form>
+      <section class="tasks-container">
+        <p class="loading-text">Loading...</p>
+        <div class="tasks"></div>
+      </section>
+    </main>
     <!-- axios -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
@@ -45,3 +64,5 @@
     <script src="./browser-app.js"></script>
   </body>
 </html>
+
+
