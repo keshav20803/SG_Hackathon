@@ -23,9 +23,9 @@
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#service">Service</a></li>
-          <li><a href="#login">Login</a></li>
+          <li><a href="#hackathon">Hackathon</a></li>
         </ul>
-        <button class="btn donate-btn">Get Started</button>
+        <button class="btn donate-btn">Login</button>
       </nav>
     </header>
     <section class="hero">
@@ -61,8 +61,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- Custom JavaScript -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('.btn.donate-btn').addEventListener('click', () => {
+          window.location.href = '/auth/google'; // Redirects to your authentication route
+        });
+      });
+    </script>
     <script src="./browser-app.js"></script>
   </body>
 </html>
-
-
