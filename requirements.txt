@@ -3,3 +3,9 @@ python-dotenv
 torch
 tensorflow
 transformers
+langchain_openai 
+langchain_core
+langchain_community
+langserve
+chromadb
+langchain_google_genai
