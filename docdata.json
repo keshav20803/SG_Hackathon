@@ -1,0 +1,113 @@
+[
+    {
+      "id": "1",
+      "name": "Dr. John Doe",
+      "specialization": "Cognitive Behavioral Therapy",
+      "years_of_experience": 10,
+      "address": "123 MG Road, Bangalore, Karnataka 560001",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.6205, 12.9769]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Dr. Jane Smith",
+      "specialization": "Family Therapy",
+      "years_of_experience": 8,
+      "address": "456 Brigade Road, Bangalore, Karnataka 560025",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.6075, 12.9716]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Dr. Alan Brown",
+      "specialization": "Psychodynamic Therapy",
+      "years_of_experience": 12,
+      "address": "789 Indiranagar, Bangalore, Karnataka 560038",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.6387, 12.9719]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Dr. Emily Davis",
+      "specialization": "Dialectical Behavior Therapy",
+      "years_of_experience": 9,
+      "address": "321 Koramangala, Bangalore, Karnataka 560034",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.6227, 12.9352]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Dr. Michael Johnson",
+      "specialization": "Existential Therapy",
+      "years_of_experience": 15,
+      "address": "654 Whitefield, Bangalore, Karnataka 560066",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.7500, 12.9699]
+      }
+    },
+    {
+      "id": "6",
+      "name": "Dr. Sarah Wilson",
+      "specialization": "Humanistic Therapy",
+      "years_of_experience": 7,
+      "address": "987 Jayanagar, Bangalore, Karnataka 560041",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.5938, 12.9250]
+      }
+    },
+    {
+      "id": "7",
+      "name": "Dr. Robert Martinez",
+      "specialization": "Integrative Therapy",
+      "years_of_experience": 11,
+      "address": "123 HSR Layout, Bangalore, Karnataka 560102",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.6413, 12.9115]
+      }
+    },
+    {
+      "id": "8",
+      "name": "Dr. Laura Hernandez",
+      "specialization": "Narrative Therapy",
+      "years_of_experience": 6,
+      "address": "456 BTM Layout, Bangalore, Karnataka 560076",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.6101, 12.9151]
+      }
+    },
+    {
+      "id": "9",
+      "name": "Dr. Richard Lee",
+      "specialization": "Rational Emotive Behavior Therapy",
+      "years_of_experience": 13,
+      "address": "789 JP Nagar, Bangalore, Karnataka 560078",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.5913, 12.9132]
+      }
+    },
+    {
+      "id": "10",
+      "name": "Dr. Susan Moore",
+      "specialization": "Gestalt Therapy",
+      "years_of_experience": 9,
+      "address": "321 Electronic City, Bangalore, Karnataka 560100",
+      "location": {
+        "type": "Point",
+        "coordinates": [77.6844, 12.8395]
+      }
+    }
+  ]
+  
